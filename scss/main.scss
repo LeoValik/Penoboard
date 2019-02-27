@@ -1,0 +1,131 @@
+$font-stack: 'Open Sans',  sans-serif;
+$bold: 700;
+$main-blue: #2c2783;
+
+body {
+  font-family: $font-stack;
+  padding: 0;
+  margin: 0;
+}
+
+/* Navigation */
+.header-bg {
+  background : url(../img/bg-header.png) no-repeat center top;
+	height: 100px;
+  nav {
+    margin-top: 25px;
+    .menu {
+      padding: 0;
+      margin: 0;
+      display: block;
+      li {
+        float: left;
+        display: block;
+        margin-right: 50px;
+        a {
+          color: #fff;
+          text-decoration: none;
+          text-transform: uppercase;
+          font-size: 16px;
+        }
+        a:hover {
+          border-top: 2px solid #fff;
+          border-bottom: 2px solid #fff;
+          padding-bottom: 3px;
+          padding-top: 3px;
+          border-top-style: solid; /* Стиль линии сверху */
+          border-top-width: 2px;
+        }
+    
+      }
+    
+    }
+  }
+}
+/* Navigation END */
+
+/* Header */
+
+/* Dropdown Languages */
+.dropbtn {
+  background-color: transparent;
+  color: $main-blue;
+  padding: 16px;
+  font-size: 16px;
+  font-weight: $bold;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: transparent;
+  min-width: 160px;
+  a {
+    margin-left: 12px;
+    color: $main-blue;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight: $bold;
+  }
+  a:hover {
+    background-color: transparent;
+    color: $main-blue;
+  }
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: transparent;
+}
+
+/* Dropdown Languages END */
+
+.social {
+  display: inline-block;
+  p {
+    color: #01983b;
+    text-transform: uppercase;
+  }
+}
+span {
+  color:$main-blue;
+  font-weight: $bold;
+}
+/* Header END */
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 576px) {  }
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 768px) {  }
+
+// Medium devices (tablets, 768px and up)
+@media  (max-width: 992px) { 
+  .header-bg { 
+    nav { 
+      .menu {
+        li { 
+          margin-right: 30px;
+          a {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+ }
+
+// Large devices (desktops, 992px and up)
+@media  (max-width: 1200px) { 
+
+ }
