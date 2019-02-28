@@ -46,6 +46,13 @@ body {
 
 /* Header */
 
+
+header {
+  background: url(../img/bg.jpg) no-repeat center top;
+  // background-image: url(../img/bg.jpg);
+  padding-bottom: 50px;
+}
+
 /* Dropdown Languages */
 .dropbtn {
   background-color: transparent;
@@ -95,13 +102,70 @@ body {
   p {
     color: #01983b;
     text-transform: uppercase;
+    a:first-child { 
+      padding-left: 10px;
+    }
   }
+
 }
-span {
+.phones {
   color:$main-blue;
   font-weight: $bold;
 }
+
+
+.slider {
+  padding-top: 50px;
+}
+
+.carousel-indicators {
+  li {
+    float: left;
+  }
+}
+
+#carouselExampleCaptions {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.56), 0 10px 10px rgba(0,0,0,0.56);
+}
+
+.carousel-caption {
+  .backslide {
+    width: 770px;
+    height: 140px;
+    background-color: #01983b;
+    opacity: 0.36;
+    position: absolute;
+    right: 20%;
+    top: 10%;
+    
+    }
+    p{
+      width: 600px;
+      position: relative;
+      right: 20%;
+      float: left;
+      text-transform: uppercase;
+      opacity: 1;
+      font-size: 30px;
+      span {
+        float: right;
+      }
+      strong {
+        font-size: 24px;
+        float: right;
+      }
+    }
+
+}
+
 /* Header END */
+
+/* Main */
+
+
+
+/* Main END */
+
 
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 576px) {  }

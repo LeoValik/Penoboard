@@ -34,6 +34,10 @@ body {
 
 /* Navigation END */
 /* Header */
+header {
+  background: url(../img/bg.jpg) no-repeat center top;
+  padding-bottom: 50px; }
+
 /* Dropdown Languages */
 .dropbtn {
   background-color: transparent;
@@ -76,12 +80,48 @@ body {
   .social p {
     color: #01983b;
     text-transform: uppercase; }
+    .social p a:first-child {
+      padding-left: 10px; }
 
-span {
+.phones {
   color: #2c2783;
   font-weight: 700; }
 
+.slider {
+  padding-top: 50px; }
+
+.carousel-indicators li {
+  float: left; }
+
+#carouselExampleCaptions {
+  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.56), 0 10px 10px rgba(0, 0, 0, 0.56);
+          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.56), 0 10px 10px rgba(0, 0, 0, 0.56); }
+
+.carousel-caption .backslide {
+  width: 770px;
+  height: 140px;
+  background-color: #01983b;
+  opacity: 0.36;
+  position: absolute;
+  right: 20%;
+  top: 10%; }
+.carousel-caption p {
+  width: 600px;
+  position: relative;
+  right: 20%;
+  float: left;
+  text-transform: uppercase;
+  opacity: 1;
+  font-size: 30px; }
+  .carousel-caption p span {
+    float: right; }
+  .carousel-caption p strong {
+    font-size: 24px;
+    float: right; }
+
 /* Header END */
+/* Main */
+/* Main END */
 @media (max-width: 992px) {
   .header-bg nav .menu li {
     margin-right: 30px; }
