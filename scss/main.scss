@@ -322,6 +322,33 @@ header {
 
 /* Achievements END */
 
+/* Contacts */
+
+.contacts {
+  background: url(../img/bgContacts.jpg) no-repeat center top;
+  background-size: cover;
+  padding-bottom: $bottomborder;
+  h2 {
+    margin-top: $topborder;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    font-weight: $bold;
+    margin-bottom: 20px;
+  }
+  .findUs {
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    span {
+      font-size: 14px;
+    }
+  }
+}
+
+/* Achievements END */
+
 /* Main END */
 
 
