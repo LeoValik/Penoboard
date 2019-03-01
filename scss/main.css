@@ -1,4 +1,14 @@
 @charset "UTF-8";
+@font-face {
+  font-family: 'EuropeExt';
+  src: url("../fonts/EuropeExt.otf");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'EuropeExt-Bold';
+  src: url("../fonts/EuropeExt-Bold.otf");
+  font-weight: normal;
+  font-style: normal; }
 body {
   font-family: "Open Sans", sans-serif;
   padding: 0;
@@ -121,20 +131,73 @@ header {
 
 /* Header END */
 /* Main */
+/* Success */
 .ofSuccess {
+  overflow: hidden;
   padding-top: 50px;
   background: url(../img/arifBG.jpg) no-repeat center top;
   color: #fff;
   text-transform: uppercase;
   padding-bottom: 50px; }
-  .ofSuccess .circle {
-    position: relative;
+  .ofSuccess img {
+    min-width: 100%; }
+  .ofSuccess .circle1 {
+    position: absolute;
     width: 250px;
     height: 250px;
     border-radius: 225px;
-    background: blue; }
+    background: transparent;
+    border: 3px solid #00aeef;
+    left: 10%;
+    top: 10%; }
+  .ofSuccess .circle11 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 275px;
+    background: transparent;
+    border: 1px solid #3376af;
+    left: 8%;
+    top: 6%; }
+  .ofSuccess .circle2 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 225px;
+    background: transparent;
+    border: 3px solid #00aeef;
+    right: 14%;
+    top: 15%; }
+  .ofSuccess .circle21 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 275px;
+    background: transparent;
+    border: 1px solid #3376af;
+    right: 12%;
+    top: 10%; }
+  .ofSuccess .circle3 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 225px;
+    background: transparent;
+    border: 3px solid #00aeef;
+    left: 36%;
+    top: 47%; }
+  .ofSuccess .circle31 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 275px;
+    background: transparent;
+    border: 1px solid #3376af;
+    left: 34%;
+    top: 42%; }
   .ofSuccess h2 {
     text-align: center;
+    position: relative;
     font-weight: 700;
     font-size: 40px;
     margin-bottom: 50px; }
@@ -147,6 +210,49 @@ header {
         .ofSuccess .forsuc p strong span {
           font-size: 30px; }
 
+/* Success END */
+/* Achievements */
+.achievements {
+  margin-bottom: 50px; }
+  .achievements h2 {
+    font-family: 'EuropeExt-Bold', arial;
+    margin-top: 40px;
+    text-align: center;
+    position: relative;
+    font-weight: 700;
+    font-size: 42px;
+    color: #2c2783; }
+    .achievements h2 .peno {
+      color: #01983b; }
+    .achievements h2 sup {
+      font-size: 9px;
+      vertical-align: top;
+      position: relative;
+      top: 0.8em;
+      right: 0.3em; }
+  .achievements h3 {
+    text-align: center;
+    color: #2c2783;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 30px; }
+  .achievements .best100 {
+    text-align: center;
+    color: #2c2783;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 30px; }
+  .achievements .top100 {
+    text-align: center; }
+  .achievements .images {
+    text-align: center; }
+    .achievements .images .cert {
+      width: 144px;
+      height: 205px; }
+
+/* Achievements END */
 /* Main END */
 @media (max-width: 992px) {
   .header-bg nav .menu li {
