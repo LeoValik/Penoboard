@@ -274,7 +274,35 @@ header {
       font-size: 14px; }
 
 /* Achievements END */
+/* Map */
+/* Map END */
 /* Main END */
+/* Footer */
+footer {
+  padding-top: 10px;
+  background-color: #01983b;
+  padding-bottom: 10px; }
+  footer .footer {
+    text-align: center; }
+    footer .footer h2 {
+      font-family: 'EuropeExt-Bold', arial;
+      text-align: center;
+      position: relative;
+      font-weight: 700;
+      font-size: 42px;
+      color: #fff; }
+      footer .footer h2 sup {
+        font-size: 9px;
+        vertical-align: top;
+        position: relative;
+        top: 0.8em;
+        right: 0.3em; }
+    footer .footer p {
+      color: #fff; }
+    footer .footer a {
+      color: #fff; }
+
+/* Footer END */
 @media (max-width: 992px) {
   .header-bg nav .menu li {
     margin-right: 30px; }
