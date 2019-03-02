@@ -1,0 +1,38 @@
+// Large devices (desktops, 992px and up)
+@media  (max-width: 1200px) { 
+  .ofSuccess {
+    .seven{
+      float: right;
+    }
+    .circle1 {
+      @include circles(250px, 225px);
+      left: 3.5%;
+      top: 15%;
+    }
+    .circle11 {
+        @include second(300px, 275px);
+        left: 1%;
+        top: 10%;
+    }
+    .circle2 {
+      @include circles(225px, 200px);
+      right: 8.5%;
+      top: 12%;
+    }
+    .circle21 {
+        @include second(275px, 250px);
+        right: 6%;
+        top: 8%;
+      }
+    .circle3 {
+      @include circles(250px, 225px);
+      left: 35%;
+      top: 57%;
+    }
+    .circle31 {
+      @include second(300px, 275px);
+      left: 32.5%;
+      top: 53%;
+    }
+  }
+}

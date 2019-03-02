@@ -1,22 +1,22 @@
 /* Success */
-@mixin circles {
+@mixin circles($size, $radius) {
   position: absolute;
-  width: 250px;
-  height: 250px;
-  -webkit-border-radius: 225px;
-  -moz-border-radius: 225px;
-  border-radius: 225px;
+  width: $size; // 250px
+  height: $size;  // 250px
+  -webkit-border-radius: $radius;  // 225px
+  -moz-border-radius: $radius;  // 225px
+  border-radius: $radius;  // 225px
   background: transparent;
   border: 3px solid #00aeef;
 }
 
-@mixin second {
+@mixin second($size, $radius) {
   position: absolute;
-  width: 300px;
-  height: 300px;
-  -webkit-border-radius: 275px;
-  -moz-border-radius: 275px;
-  border-radius: 275px;
+  width: $size;  // 300px
+  height: $size;  // 300px
+  -webkit-border-radius: $radius;  // 275px
+  -moz-border-radius: $radius;   // 275px
+  border-radius: $radius;   // 275px
   background: transparent;
   border: 1px solid #3376af;
 
@@ -29,37 +29,38 @@
   color: #fff;
   text-transform: uppercase;
   padding-bottom: $bottomborder;
+  background-size: cover;
   img {
     min-width: 100%;
   }
     .circle1 {
-      @include circles;
+      @include circles(250px, 225px);
       left: 10%;
       top: 10%;
 
     }
     .circle11 {
-        @include second;
+        @include second(300px, 275px);
         left: 8%;
         top: 6%;
     }
     .circle2 {
-      @include circles;
+      @include circles(250px, 225px);
       right: 14%;
       top: 15%;
     }
     .circle21 {
-        @include second;
+        @include second(300px, 275px);
         right: 12%;
         top: 10%;
       }
     .circle3 {
-      @include circles;
+      @include circles(250px, 225px);
       left: 36%;
       top: 47%;
     }
     .circle31 {
-      @include second;
+      @include second(300px, 275px);
       left: 34%;
       top: 42%;
     }

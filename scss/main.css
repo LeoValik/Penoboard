@@ -97,17 +97,17 @@ header {
           box-shadow: 0 14px 28px rgba(0, 0, 0, 0.56), 0 10px 10px rgba(0, 0, 0, 0.56); }
 
 .carousel-caption .backslide {
-  width: 770px;
-  height: 140px;
+  width: 130%;
+  height: 75%;
   background-color: #01983b;
   opacity: 0.36;
   position: absolute;
-  right: 21%;
+  right: 18%;
   top: 10%; }
 .carousel-caption p {
-  width: 750px;
+  width: 100%;
   position: relative;
-  right: 25%;
+  right: 21%;
   float: left;
   text-transform: uppercase;
   opacity: 1;
@@ -140,7 +140,8 @@ header {
   background: url(../img/arifBG.jpg) no-repeat center top;
   color: #fff;
   text-transform: uppercase;
-  padding-bottom: 50px; }
+  padding-bottom: 50px;
+  background-size: cover; }
   .ofSuccess img {
     min-width: 100%; }
   .ofSuccess .circle1 {
@@ -218,7 +219,7 @@ header {
   margin-bottom: 50px; }
   .achievements h2 {
     font-family: 'EuropeExt-Bold', arial;
-    margin-top: 40px;
+    margin-top: 50px;
     text-align: center;
     position: relative;
     font-weight: 700;
@@ -305,6 +306,76 @@ footer {
   .header-bg nav .menu li {
     margin-right: 30px; }
     .header-bg nav .menu li a {
-      font-size: 16px; } }
+      font-size: 16px; }
+
+  header {
+    text-align: center; }
+
+  .carousel-caption p {
+    font-size: 24px; }
+    .carousel-caption p strong {
+      font-size: 18px; }
+
+  .ofSuccess .forsuc p {
+    font-size: 24px; }
+    .ofSuccess .forsuc p strong {
+      font-size: 60px; } }
+@media (max-width: 1200px) {
+  .ofSuccess .seven {
+    float: right; }
+  .ofSuccess .circle1 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 225px;
+    background: transparent;
+    border: 3px solid #00aeef;
+    left: 3.5%;
+    top: 15%; }
+  .ofSuccess .circle11 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 275px;
+    background: transparent;
+    border: 1px solid #3376af;
+    left: 1%;
+    top: 10%; }
+  .ofSuccess .circle2 {
+    position: absolute;
+    width: 225px;
+    height: 225px;
+    border-radius: 200px;
+    background: transparent;
+    border: 3px solid #00aeef;
+    right: 8.5%;
+    top: 12%; }
+  .ofSuccess .circle21 {
+    position: absolute;
+    width: 275px;
+    height: 275px;
+    border-radius: 250px;
+    background: transparent;
+    border: 1px solid #3376af;
+    right: 6%;
+    top: 8%; }
+  .ofSuccess .circle3 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 225px;
+    background: transparent;
+    border: 3px solid #00aeef;
+    left: 35%;
+    top: 57%; }
+  .ofSuccess .circle31 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 275px;
+    background: transparent;
+    border: 1px solid #3376af;
+    left: 32.5%;
+    top: 53%; } }
 
 /*# sourceMappingURL=main.css.map */

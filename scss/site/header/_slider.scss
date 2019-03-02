@@ -14,19 +14,19 @@
 
 .carousel-caption {
   .backslide {
-    width: 770px;
-    height: 140px;
+    width: 130%;  // 770px
+    height: 75%;  // 140px
     background-color: #01983b;
     opacity: 0.36;
     position: absolute;
-    right: 21%;
+    right: 18%;
     top: 10%;
     
     }
     p{
-      width: 750px;
+      width: 100%;  // 750px
       position: relative;
-      right: 25%;
+      right: 21%;
       float: left;
       text-transform: uppercase;
       opacity: 1;

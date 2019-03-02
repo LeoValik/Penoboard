@@ -1,0 +1,40 @@
+// Medium devices (tablets, 768px and up)
+@media  (max-width: 992px) { 
+  .header-bg { 
+    nav { 
+      .menu {
+        li { 
+          margin-right: 30px;
+          a {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+  header {
+    text-align: center;
+  }
+  .carousel-caption {
+    p {
+      font-size: 24px;
+      strong {
+        font-size: 18px;
+      }
+    }
+  }
+
+  .ofSuccess {
+    .forsuc {
+      p {
+        font-size: 24px;
+        strong {
+          font-size: 60px;
+        }
+      }        
+    }
+    
+
+
+  }
+ }
