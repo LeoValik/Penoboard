@@ -1,0 +1,33 @@
+/* Footer */
+
+footer {
+  padding-top: 10px;
+  background-color: #01983b;
+  padding-bottom: 10px;
+  .footer {
+    text-align: center;
+    h2 {
+    font-family: 'EuropeExt-Bold', arial;
+    text-align: center;
+    position: relative;
+    font-weight: $bold;
+    font-size: 42px;
+    color: #fff;
+    sup {
+      font-size: 9px;
+      vertical-align: top;
+      position: relative;
+      top: 0.8em;
+      right: 0.3em;
+      }
+    }
+    p {
+      color: #fff;
+    }
+    a {
+      color: #fff;
+    }
+  }
+}
+
+/* Footer END */

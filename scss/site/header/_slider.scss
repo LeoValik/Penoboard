@@ -1,0 +1,45 @@
+.slider {
+  padding-top: $topborder;
+}
+
+.carousel-indicators {
+  li {
+    float: left;
+  }
+}
+
+#carouselExampleCaptions {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.56), 0 10px 10px rgba(0,0,0,0.56);
+}
+
+.carousel-caption {
+  .backslide {
+    width: 770px;
+    height: 140px;
+    background-color: #01983b;
+    opacity: 0.36;
+    position: absolute;
+    right: 21%;
+    top: 10%;
+    
+    }
+    p{
+      width: 750px;
+      position: relative;
+      right: 25%;
+      float: left;
+      text-transform: uppercase;
+      opacity: 1;
+      font-size: 30px;
+      font-family: 'EuropeExt', arial;
+      span {
+        float: right;
+      }
+      strong {
+        font-family: 'EuropeExt-Bold', arial;
+        font-size: 24px;
+        float: right;
+      }
+    }
+
+}

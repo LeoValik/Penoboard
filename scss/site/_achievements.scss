@@ -1,0 +1,54 @@
+/* Achievements */
+
+@mixin forh3 {
+  text-align: center;
+  color: #2c2783;
+  text-transform: uppercase;
+  font-weight: $bold;
+  font-size: 30px;
+}
+
+.achievements {
+  margin-bottom: $bottomborder;
+  h2 {
+    font-family: 'EuropeExt-Bold', arial;
+    margin-top: 40px;
+    text-align: center;
+    position: relative;
+    font-weight: $bold;
+    font-size: 42px;
+    
+    color: #2c2783;
+    .peno {
+      color: #01983b;
+    }
+    sup {
+      font-size: 9px;
+      vertical-align: top;
+      position: relative;
+      top: 0.8em;
+      right: 0.3em;
+    }
+  }
+  h3 {
+    @include forh3;
+    margin-bottom: 30px;
+  }
+  .best100 {
+    @include forh3;
+    margin-top: 30px;
+  }
+  .top100 {
+    text-align: center;
+  }
+  .images{
+    text-align: center;
+    .cert {
+      width: 144px;
+      height: 205px;
+    }
+  }
+
+}
+
+/* Achievements END */

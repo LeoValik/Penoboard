@@ -1,0 +1,88 @@
+/* Success */
+@mixin circles {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  -webkit-border-radius: 225px;
+  -moz-border-radius: 225px;
+  border-radius: 225px;
+  background: transparent;
+  border: 3px solid #00aeef;
+}
+
+@mixin second {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  -webkit-border-radius: 275px;
+  -moz-border-radius: 275px;
+  border-radius: 275px;
+  background: transparent;
+  border: 1px solid #3376af;
+
+}
+
+.ofSuccess {
+  overflow:hidden;  // Чтобы не появлялся горизонтальный скролл
+  padding-top: $topborder;
+  background: url(../img/arifBG.jpg) no-repeat center top;
+  color: #fff;
+  text-transform: uppercase;
+  padding-bottom: $bottomborder;
+  img {
+    min-width: 100%;
+  }
+    .circle1 {
+      @include circles;
+      left: 10%;
+      top: 10%;
+
+    }
+    .circle11 {
+        @include second;
+        left: 8%;
+        top: 6%;
+    }
+    .circle2 {
+      @include circles;
+      right: 14%;
+      top: 15%;
+    }
+    .circle21 {
+        @include second;
+        right: 12%;
+        top: 10%;
+      }
+    .circle3 {
+      @include circles;
+      left: 36%;
+      top: 47%;
+    }
+    .circle31 {
+      @include second;
+      left: 34%;
+      top: 42%;
+    }
+  h2 {
+    text-align: center;
+    position: relative;
+    font-weight: $bold;
+    font-size: 40px;
+    margin-bottom: 50px;
+  }
+  .forsuc {
+    display: inline-block;
+    p {
+      font-size: 30px;
+      strong {
+        font-size: 72px;
+        span {
+          font-size: 30px;
+        }
+      }
+    }    
+  }
+
+}
+
+/* Success END */

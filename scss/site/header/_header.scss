@@ -1,0 +1,31 @@
+/* Header */
+
+
+header {
+  background: url(../img/bg.jpg) no-repeat center top;
+  // background-image: url(../img/bg.jpg);
+  padding-bottom: $bottomborder;
+}
+
+@import 'lang';
+@import 'slider';
+
+.social {
+  display: inline-block;
+  p {
+    color: #01983b;
+    text-transform: uppercase;
+    a:first-child { 
+      padding-left: 10px;
+    }
+  }
+
+}
+.phones {
+  color:$main-blue;
+  font-weight: $bold;
+}
+
+
+
+/* Header END */
