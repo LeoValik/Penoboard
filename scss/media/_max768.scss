@@ -1,0 +1,57 @@
+// Small devices (landscape phones, 576px and up)
+@media only screen and (min-width: 576px) and (max-width: 767px) { 
+
+  header {
+    text-align: center;
+  }
+
+  .header-bg {
+	
+	.navbar {
+		margin-top: 20px;
+		padding: 0;
+		color: #fff;
+		text-align: center;
+		.navbar-brand {
+  		display: block;
+  		}
+  		.navbar-collapse {
+  		//background : url(../img/bg-header.png) no-repeat center top;
+  		background-color: #01983b;
+  		//height: 100%;
+  		background-size: cover;
+		z-index: 1;
+  		}
+  		button {
+  			margin-left: 250px;
+  		}
+	}
+
+  	li {
+  		display: block;
+  		width: 100%;
+  		text-align: center;
+  	}
+
+  	h2 {
+    font-family: 'EuropeExt-Bold', arial;
+    text-align: center;
+    position: relative;
+    font-weight: $bold;
+    font-size: 24px;
+    color: #fff;
+    sup {
+      font-size: 7px;
+      vertical-align: top;
+      position: relative;
+      top: 0.5em;
+      right: 0.4em;
+      }
+    }
+  }
+
+
+
+
+
+}

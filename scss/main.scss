@@ -35,9 +35,6 @@ body {
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 576px) {  }
 
-// Small devices (landscape phones, 576px and up)
-@media (max-width: 768px) {  }
-
-
+@import 'media/max768';
 @import 'media/max992';
 @import 'media/max1200';
