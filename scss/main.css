@@ -302,7 +302,7 @@ footer {
       color: #fff; }
 
 /* Footer END */
-@media (max-width: 992px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
   .header-bg nav .menu li {
     margin-right: 30px; }
     .header-bg nav .menu li a {
@@ -316,11 +316,75 @@ footer {
     .carousel-caption p strong {
       font-size: 18px; }
 
+  .ofSuccess .seven {
+    float: right; }
+  .ofSuccess .shadow1 {
+    max-width: 80%; }
   .ofSuccess .forsuc p {
     font-size: 24px; }
     .ofSuccess .forsuc p strong {
-      font-size: 60px; } }
-@media (max-width: 1200px) {
+      font-size: 60px; }
+  .ofSuccess .circle1 {
+    position: absolute;
+    width: 225px;
+    height: 225px;
+    border-radius: 200px;
+    background: transparent;
+    border: 3px solid #00aeef;
+    left: 2.5%;
+    top: 18%; }
+  .ofSuccess .circle11 {
+    position: absolute;
+    width: 275px;
+    height: 275px;
+    border-radius: 250px;
+    background: transparent;
+    border: 1px solid #3376af;
+    left: -1%;
+    top: 14%; }
+  .ofSuccess .circle2 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 175px;
+    background: transparent;
+    border: 3px solid #00aeef;
+    right: 4%;
+    top: 14%; }
+  .ofSuccess .circle21 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 225px;
+    background: transparent;
+    border: 1px solid #3376af;
+    right: 1%;
+    top: 9%; }
+  .ofSuccess .circle3 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 175px;
+    background: transparent;
+    border: 3px solid #00aeef;
+    left: 36%;
+    top: 57%; }
+  .ofSuccess .circle31 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 225px;
+    background: transparent;
+    border: 1px solid #3376af;
+    left: 32.5%;
+    top: 53%; }
+
+  .footer img {
+    text-align: center; }
+  .footer h2 {
+    display: block;
+    text-align: center; } }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
   .ofSuccess .seven {
     float: right; }
   .ofSuccess .circle1 {
@@ -348,16 +412,16 @@ footer {
     border-radius: 200px;
     background: transparent;
     border: 3px solid #00aeef;
-    right: 8.5%;
-    top: 12%; }
+    right: 9%;
+    top: 10%; }
   .ofSuccess .circle21 {
     position: absolute;
-    width: 275px;
-    height: 275px;
-    border-radius: 250px;
+    width: 250px;
+    height: 250px;
+    border-radius: 225px;
     background: transparent;
     border: 1px solid #3376af;
-    right: 6%;
+    right: 8%;
     top: 8%; }
   .ofSuccess .circle3 {
     position: absolute;
