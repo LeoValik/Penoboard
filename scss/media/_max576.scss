@@ -1,0 +1,129 @@
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 576px) { 
+
+  header {
+    text-align: center;
+  }
+
+  .fax {
+  	display: block;
+  }
+  .header-bg {
+	
+	.navbar {
+		margin-top: 20px;
+		padding: 0;
+		color: #fff;
+		text-align: center;
+		.navbar-brand {
+  		display: block;
+  		}
+  		.navbar-collapse {
+  		//background : url(../img/bg-header.png) no-repeat center top;
+  		background-color: #01983b;
+  		//height: 100%;
+  		background-size: cover;
+		z-index: 1;
+  		}
+  		button {
+  			margin-left: 100px; 
+  		}
+	}
+
+  	li {
+  		display: block;
+  		width: 100%;
+  		text-align: center;
+  	}
+
+  	h2 {
+    font-family: 'EuropeExt-Bold', arial;
+    text-align: center;
+    position: relative;
+    font-weight: $bold;
+    font-size: 24px;
+    color: #fff;
+    margin-left: 20px;
+    sup {
+      font-size: 7px;
+      vertical-align: top;
+      position: relative;
+      top: 0.5em;
+      right: 0.4em;
+      }
+    }
+  }
+
+
+.carousel-caption {
+	.backslide {
+    width: 150%;  // 770px
+    height: 75%;  // 140px
+    background-color: #01983b;
+    opacity: 0.36;
+    position: absolute;
+    right: 18%;
+    top: 10%;
+    
+    }
+    p{
+      width: 100%;  // 750px
+      font-size: 16px;
+      
+      strong {
+        font-size: 14px;
+      }
+    }
+
+}
+
+.ofSuccess {
+	  img {
+    max-width: 35%;
+  	}
+	    .seven{
+      text-align: right;
+    }
+
+	    .circle1 {
+      @include circles(150px, 125px);
+      left: 7%;
+      top: 20%;
+    }
+    .circle11 {
+        @include second(200px, 175px);
+        left: 1%;
+        top: 16%;
+    }
+    .circle2 {
+      @include circles(150px, 125px);
+      right: 6%;
+      top: 42%;
+    }
+    .circle21 {
+        @include second(200px, 175px);
+        right: 1%;
+        top: 38%;
+      }
+    .circle3 {
+      @include circles(150px, 125px);
+      left: 19%;
+      top: 75%;
+    }
+    .circle31 {
+      @include second(200px, 175px);
+      left: 12.5%;
+      top: 71%;
+    }
+    .forsuc {
+    p {
+      font-size: 24px;
+      strong {
+        font-size: 60px;
+      }
+    }    
+  }
+}
+
+
+}

@@ -32,9 +32,7 @@ body {
 @import 'site/footer';
 
 
-// Extra small devices (portrait phones, less than 576px)
-@media (max-width: 576px) {  }
-
+@import 'media/max576';
 @import 'media/max768';
 @import 'media/max992';
 @import 'media/max1200';

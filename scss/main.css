@@ -136,6 +136,9 @@ header {
   color: #2c2783;
   font-weight: 700; }
 
+.fax {
+  display: none; }
+
 /* Header END */
 /* Success */
 .ofSuccess {
@@ -306,6 +309,121 @@ footer {
       color: #fff; }
 
 /* Footer END */
+@media (max-width: 576px) {
+  header {
+    text-align: center; }
+
+  .fax {
+    display: block; }
+
+  .header-bg .navbar {
+    margin-top: 20px;
+    padding: 0;
+    color: #fff;
+    text-align: center; }
+    .header-bg .navbar .navbar-brand {
+      display: block; }
+    .header-bg .navbar .navbar-collapse {
+      background-color: #01983b;
+      background-size: cover;
+      z-index: 1; }
+    .header-bg .navbar button {
+      margin-left: 100px; }
+  .header-bg li {
+    display: block;
+    width: 100%;
+    text-align: center; }
+  .header-bg h2 {
+    font-family: 'EuropeExt-Bold', arial;
+    text-align: center;
+    position: relative;
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+    margin-left: 20px; }
+    .header-bg h2 sup {
+      font-size: 7px;
+      vertical-align: top;
+      position: relative;
+      top: 0.5em;
+      right: 0.4em; }
+
+  .carousel-caption .backslide {
+    width: 150%;
+    height: 75%;
+    background-color: #01983b;
+    opacity: 0.36;
+    position: absolute;
+    right: 18%;
+    top: 10%; }
+  .carousel-caption p {
+    width: 100%;
+    font-size: 16px; }
+    .carousel-caption p strong {
+      font-size: 14px; }
+
+  .ofSuccess img {
+    max-width: 35%; }
+  .ofSuccess .seven {
+    text-align: right; }
+  .ofSuccess .circle1 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 125px;
+    background: transparent;
+    border: 3px solid #00aeef;
+    left: 7%;
+    top: 20%; }
+  .ofSuccess .circle11 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 175px;
+    background: transparent;
+    border: 1px solid #3376af;
+    left: 1%;
+    top: 16%; }
+  .ofSuccess .circle2 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 125px;
+    background: transparent;
+    border: 3px solid #00aeef;
+    right: 6%;
+    top: 42%; }
+  .ofSuccess .circle21 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 175px;
+    background: transparent;
+    border: 1px solid #3376af;
+    right: 1%;
+    top: 38%; }
+  .ofSuccess .circle3 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 125px;
+    background: transparent;
+    border: 3px solid #00aeef;
+    left: 19%;
+    top: 75%; }
+  .ofSuccess .circle31 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 175px;
+    background: transparent;
+    border: 1px solid #3376af;
+    left: 12.5%;
+    top: 71%; }
+  .ofSuccess .forsuc p {
+    font-size: 24px; }
+    .ofSuccess .forsuc p strong {
+      font-size: 60px; } }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   header {
     text-align: center; }
