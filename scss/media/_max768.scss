@@ -51,7 +51,52 @@
   }
 
 
+.carousel-caption {
+    p{
+      font-size: 22px;
+      strong {
+        font-size: 16px;
+      }
+    }
 
+}
+
+.ofSuccess {
+	    .seven{
+      text-align: right;
+    }
+
+	    .circle1 {
+      @include circles(225px, 200px);
+      left: 5%;
+      top: 14%;
+    }
+    .circle11 {
+        @include second(275px, 250px);
+        left: 1%;
+        top: 10%;
+    }
+    .circle2 {
+      @include circles(200px, 175px);
+      right: 4%;
+      top: 33%;
+    }
+    .circle21 {
+        @include second(250px, 225px);
+        right: 0;
+        top: 29%;
+      }
+    .circle3 {
+      @include circles(200px, 175px);
+      left: 17%;
+      top: 68%;
+    }
+    .circle31 {
+      @include second(250px, 225px);
+      left: 12.5%;
+      top: 64%;
+    }
+}
 
 
 }

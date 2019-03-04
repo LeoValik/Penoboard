@@ -339,7 +339,69 @@ footer {
       vertical-align: top;
       position: relative;
       top: 0.5em;
-      right: 0.4em; } }
+      right: 0.4em; }
+
+  .carousel-caption p {
+    font-size: 22px; }
+    .carousel-caption p strong {
+      font-size: 16px; }
+
+  .ofSuccess .seven {
+    text-align: right; }
+  .ofSuccess .circle1 {
+    position: absolute;
+    width: 225px;
+    height: 225px;
+    border-radius: 200px;
+    background: transparent;
+    border: 3px solid #00aeef;
+    left: 5%;
+    top: 14%; }
+  .ofSuccess .circle11 {
+    position: absolute;
+    width: 275px;
+    height: 275px;
+    border-radius: 250px;
+    background: transparent;
+    border: 1px solid #3376af;
+    left: 1%;
+    top: 10%; }
+  .ofSuccess .circle2 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 175px;
+    background: transparent;
+    border: 3px solid #00aeef;
+    right: 4%;
+    top: 33%; }
+  .ofSuccess .circle21 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 225px;
+    background: transparent;
+    border: 1px solid #3376af;
+    right: 0;
+    top: 29%; }
+  .ofSuccess .circle3 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 175px;
+    background: transparent;
+    border: 3px solid #00aeef;
+    left: 17%;
+    top: 68%; }
+  .ofSuccess .circle31 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 225px;
+    background: transparent;
+    border: 1px solid #3376af;
+    left: 12.5%;
+    top: 64%; } }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .header-bg .navbar .navbar-nav li {
     margin-right: 10px; }
