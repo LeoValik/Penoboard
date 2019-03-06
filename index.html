@@ -12,41 +12,6 @@
     <title>PENOBOARD</title>
   </head>
   <body>
-
-
-<!--
-		
-		<div class="header-bg">
-				<div class="container">
-						<div class="row justify-content-md-center">
-								<nav>
-										<ul class="menu">
-											<li>
-												<a href="#">Главная</a>
-											</li>
-											<li>
-												<a href="#sectionSuccess">Арифметика успеха</a>
-											</li>
-											<li>
-												<a href="#sectionAchievements">Наши достижения</a>
-											</li>
-											<li>
-												<a href="#sectionContacts">Контакты</a>
-											</li>
-											<li>
-												<a href="#sectionMap">Карта</a>
-											</li>
-										</ul>
-									</nav>
-						</div>
-							
-					</div>
-		</div>
-		
-
--->
-
-
 		<!-- Navigation -->
 		<div class="header-bg">
 				<div class="container">
@@ -59,19 +24,19 @@
 							  <div class="collapse navbar-collapse" id="navbarNav">
 							    <ul class="navbar-nav mr-auto mt-2 mt-sm-0 menu">
 							      <li class="nav-item">
-							        <a class="nav-link" href="#">Главная <span class="sr-only">(current)</span></a>
+							        <a class="nav-link lang" href="#" key="main">Главная <span class="sr-only">(current)</span></a>
 							      </li>
 							      <li class="nav-item">
-							        <a class="nav-link" href="#sectionSuccess">Арифметика успеха</a>
+							        <a class="nav-link lang" href="#sectionSuccess" key="ofsuccess">Арифметика успеха</a>
 							      </li>
 							      <li class="nav-item">
-							        <a class="nav-link" href="#sectionAchievements">Наши достижения</a>
+							        <a class="nav-link lang" href="#sectionAchievements" key="achievements">Наши достижения</a>
 							      </li>
 							      <li class="nav-item">
-							        <a class="nav-link" href="#sectionContacts">Контакты</a>
+							        <a class="nav-link lang" href="#sectionContacts" key="contacts">Контакты</a>
 							      </li>
 							  	  <li class="nav-item">
-							        <a class="nav-link" href="#sectionMap">Карта</a>
+							        <a class="nav-link lang" href="#sectionMap" key="map">Карта</a>
 							      </li>
 							    </ul>
 							  </div>
@@ -98,17 +63,16 @@
 					<div class="col-xl-2 col-lg-1"></div>
 					<div class="col-xl-5 col-lg-6 ">
 							<div class="dropdown">
-									<button class="dropbtn"><img src="img/drop.webp" alt="drop"> RU</button>
+									<button class="dropbtn"><img src="img/drop.webp" alt="drop"> <span class="lang" key="changelanguage">RU </span> </button>
 									<div class="dropdown-content">
-									<a href="#">RU</a>
-									<a href="#">UA</a>
-									<!--<a href="#">ENG</a>-->
+									<a href="#" class="translate" id="ru">RU</a>
+									<a href="#" class="translate" id="ua">UA</a>
 									</div>
 							</div>
 							
 							<div class="social offset-md-2">
 									<p>
-											Мы в социальных сетях 
+											<span class="lang" key="weinsocial">Мы в социальных сетях</span>
 											<a href="#"><img src="img/linkedin.webp" alt="linkedin"></a>
 											<a href="#"><img src="img/vk.webp" alt="vk"></a>
 										</p>
@@ -137,24 +101,24 @@
 										<img src="img/slider/slide1_.jpg" class="d-block w-100" alt="...">
 										<div class="carousel-caption  d-md-block">
 											<div class="backslide"></div>
-											<p>Сегодня инновация -<br> <span>завтра необходимость</span> <br>
-											<strong>Энергосбережение нового поколения</strong></p>
+											<p><span class="today lang" key="today">Сегодня инновация -</span><br> <span class="tomorrow lang" key="tomorrow">завтра необходимость</span> <br>
+											<strong class="lang" key="energy">Энергосбережение нового поколения</strong></p>
 										</div>
 									</div>
 									<div class="carousel-item">
 										<img src="img/slider/slide2_.jpg" class="d-block w-100" alt="...">
 										<div class="carousel-caption  d-md-block">
 												<div class="backslide"></div>
-												<p>Сегодня инновация -<br> <span>завтра необходимость</span> <br>
-													<strong>Энергосбережение нового поколения</strong></p>
+												<p><span class="today lang" key="today">Сегодня инновация -</span><br> <span class="tomorrow lang" key="tomorrow">завтра необходимость</span> <br>
+													<strong class="lang" key="energy">Энергосбережение нового поколения</strong></p>
 										</div>
 									</div>
 									<div class="carousel-item">
 										<img src="img/slider/slide3_.jpg" class="d-block w-100" alt="...">
 										<div class="carousel-caption  d-md-block">
 												<div class="backslide"></div>
-												<p>Сегодня инновация -<br> <span>завтра необходимость</span> <br>
-													<strong>Энергосбережение нового поколения</strong></p>
+												<p><span class="today lang" key="today">Сегодня инновация -</span><br> <span class="tomorrow lang" key="tomorrow">завтра необходимость</span> <br>
+													<strong class="lang" key="energy">Энергосбережение нового поколения</strong></p>
 										</div>
 									</div>
 								</div>
@@ -174,18 +138,18 @@
 				<div class="container">
 						<div class="row">
 							<div class="col-md-12">
-								<h2>Арифметика успеха</h2>
+								<h2 class="lang" key="ofsuccess">Арифметика успеха</h2>
 									<div class="circle1"></div><div class="circle11"></div>
 									<div class="forsuc col-md-6 col-lg-5 col-xl-6 wow bounceInLeft">
-										<div ><p>Территория предприятия<br> <strong>25 000 м<sup>2</sup></strong></p></div>	
+										<div ><p><span class="lang" key="territory">Территория предприятия</span><br> <strong>25 000 м<sup>2</sup></strong></p></div>	
 									</div>
 
 									
-									<div class="circle2"></div><div class="circle21"><img class="shadow1" src="img/shadow1.webp" alt=""> </div>								
-									<div class="forsuc seven col-md-6 col-lg-6 col-xl-5 wow bounceInRight"><p>на рынке <strong>7 лет</strong></p></div>						
+									<div class="circle2"></div><div class="circle21"><img class="shadow1" src="img/shadow1.webp" alt="shadow1"> </div>								
+									<div class="forsuc seven col-md-6 col-lg-6 col-xl-5 wow bounceInRight"><p><span class="lang" key="onthemarket">на рынке </span><strong class="lang" key="sevenyears">7 лет</strong></p></div>						
 								<br>
 									<div class="circle3"></div><div class="circle31"><img src="img/shadow2.webp" alt=""></div><br><br>
-									<div class="forsuc col-md-6 offset-md-3 wow fadeIn"><p>Годовой объем производства<br> <strong>180 000 м<sup>3</sup></strong></p></div>									
+									<div class="forsuc col-md-6 offset-md-3 wow fadeIn"><p><span class="lang" key="theyearof">Годовой объем производства</span><br> <strong>180 000 м<sup>3</sup></strong></p></div>									
 							</div>
 						</div>
 					</div>
@@ -200,7 +164,7 @@
 				<div class="row">
 					<div class="col-md-12">
 						<h2><span class="peno">PENO</span>BOARD<sup>TM</sup></h2>
-						<h3>Сертификаты качества и премии</h3>
+						<h3 class="lang" key="cert">Сертификаты качества и премии</h3>
 						<div class="images col-md-10 offset-md-1">
 							<a href="img/cert/cert1.png" target="_blank"><img class="cert" src="img/cert/cert1.png" alt="cert1"></a>
 							<a href="img/cert/cert2.png" target="_blank"><img class="cert" src="img/cert/cert2.png" alt="cert2"></a>
@@ -209,8 +173,8 @@
 							<a href="img/cert/cert5.png" target="_blank"><img class="cert" src="img/cert/cert5.png" alt="cert5"></a>
 
 						</div>
-						<h3 class="best100">Премия: <br>
-						100 лучших товаров Украины  2010 и 2011</h3>
+						<h3 class="best100"><span class="lang" key="thebest">Премия: </span><br>
+						<span class="lang" key="thebestof100">100 лучших товаров Украины  2010 и 2011</span></h3>
 						<div class="top100">
 							<img src="img/logoTop100.webp" alt="logoTop100">
 						</div> 
@@ -227,11 +191,11 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<h2>Контакты</h2>
+						<h2 class="lang" key="contacts">Контакты</h2>
 						<div class="findUs col-md-6 offset-md-3">
-							<p>ООО «Производственно коммерческая фирма «Элит Пласт» 
-						73000, Украина, г. Херсон, пос. Антоновка, ул 23 Восточная, 41-А<br>
-						<span>тел:+38(0552)314-410, 314-403; факс:+38(0552)359-214; <br>
+							<p><span class="lang" key="wherefindus">ООО «Производственно коммерческая фирма «Элит Пласт» 
+						73000, Украина, г. Херсон, пос. Антоновка, ул 23 Восточная, 41</span><br>
+						<span class="telephones">тел:+38(0552)314-410, 314-403; факс:+38(0552)359-214; <br>
 						e-mail:info@penoboard.com</span> </p>
 						</div> 
 					</div>
@@ -263,7 +227,7 @@
 							<img src="img/logcompany.webp" alt="penoboard"><br>
 							<h2>PENOBOARD<sup>TM</sup></h2>
 							<p>2014 © <br>
-							Мы в социальных сетях <br>
+							<span class="lang" key="weinsocial">Мы в социальных сетях </span><br>
 									<a href="#"><img src="img/linkedinFooter.webp" alt="linkedin"></a>
 									<a href="#"><img src="img/vkFooter.webp" alt="vk"></a>
 							</p>
@@ -282,6 +246,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js"></script>
 	<script src="js/scroll.js"></script>
+	<script src="js/lang.js"></script>
 	<script>
 		new WOW().init();
 

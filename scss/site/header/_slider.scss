@@ -32,9 +32,14 @@
       opacity: 1;
       font-size: 30px;
       font-family: 'EuropeExt', arial;
-      span {
+      .today {
+        float: left;
+        margin-left: 27px;
+      }
+      .tomorrow {
         float: right;
       }
+
       strong {
         font-family: 'EuropeExt-Bold', arial;
         font-size: 24px;
