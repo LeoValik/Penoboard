@@ -197,7 +197,7 @@ header {
     border-radius: 225px;
     background: transparent;
     border: 3px solid #00aeef;
-    left: 36%;
+    left: 28%;
     top: 47%; }
   .ofSuccess .circle31 {
     position: absolute;
@@ -206,7 +206,7 @@ header {
     border-radius: 275px;
     background: transparent;
     border: 1px solid #3376af;
-    left: 34%;
+    left: 26%;
     top: 42%; }
   .ofSuccess h2 {
     text-align: center;
@@ -320,6 +320,7 @@ footer {
     display: block; }
 
   .header-bg .navbar {
+    width: 100%;
     margin-top: 20px;
     padding: 0;
     color: #fff;
@@ -331,7 +332,7 @@ footer {
       background-size: cover;
       z-index: 1; }
     .header-bg .navbar button {
-      margin-left: 100px; }
+      margin-right: 20px; }
   .header-bg li {
     display: block;
     width: 100%;
@@ -435,7 +436,8 @@ footer {
     margin-top: 20px;
     padding: 0;
     color: #fff;
-    text-align: center; }
+    text-align: center;
+    width: 100%; }
     .header-bg .navbar .navbar-brand {
       display: block; }
     .header-bg .navbar .navbar-collapse {
@@ -651,7 +653,7 @@ footer {
     border-radius: 225px;
     background: transparent;
     border: 3px solid #00aeef;
-    left: 35%;
+    left: 31%;
     top: 57%; }
   .ofSuccess .circle31 {
     position: absolute;
@@ -660,7 +662,7 @@ footer {
     border-radius: 275px;
     background: transparent;
     border: 1px solid #3376af;
-    left: 32.5%;
+    left: 28.5%;
     top: 53%; } }
 
 /*# sourceMappingURL=main.css.map */

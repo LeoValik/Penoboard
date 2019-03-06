@@ -26,12 +26,12 @@
       }
     .circle3 {
       @include circles(250px, 225px);
-      left: 35%;
+      left: 31%;
       top: 57%;
     }
     .circle31 {
       @include second(300px, 275px);
-      left: 32.5%;
+      left: 28.5%;
       top: 53%;
     }
   }
