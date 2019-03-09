@@ -316,6 +316,11 @@ footer {
   header {
     text-align: center; }
 
+  .imglogo {
+    display: block;
+    max-width: 100%;
+    height: auto; }
+
   .fax {
     display: block; }
 
@@ -362,7 +367,7 @@ footer {
     top: 10%; }
   .carousel-caption p {
     width: 100%;
-    font-size: 16px; }
+    font-size: 14px; }
     .carousel-caption p strong {
       font-size: 14px; }
 
@@ -395,8 +400,8 @@ footer {
     border-radius: 125px;
     background: transparent;
     border: 3px solid #00aeef;
-    right: 6%;
-    top: 42%; }
+    right: 7%;
+    top: 44%; }
   .ofSuccess .circle21 {
     position: absolute;
     width: 200px;
@@ -405,7 +410,7 @@ footer {
     background: transparent;
     border: 1px solid #3376af;
     right: 1%;
-    top: 38%; }
+    top: 40%; }
   .ofSuccess .circle3 {
     position: absolute;
     width: 150px;
@@ -427,7 +432,11 @@ footer {
   .ofSuccess .forsuc p {
     font-size: 24px; }
     .ofSuccess .forsuc p strong {
-      font-size: 60px; } }
+      font-size: 60px; }
+
+  footer .footer h2 {
+    font-size: 36px;
+    color: #fff; } }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   header {
     text-align: center; }

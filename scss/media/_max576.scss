@@ -5,6 +5,12 @@
     text-align: center;
   }
 
+  .imglogo {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
   .fax {
   	display: block;
   }
@@ -70,7 +76,7 @@
     }
     p{
       width: 100%;  // 750px
-      font-size: 16px;
+      font-size: 14px;
       
       strong {
         font-size: 14px;
@@ -99,13 +105,13 @@
     }
     .circle2 {
       @include circles(150px, 125px);
-      right: 6%;
-      top: 42%;
+      right: 7%;
+      top: 44%;
     }
     .circle21 {
         @include second(200px, 175px);
         right: 1%;
-        top: 38%;
+        top: 40%;
       }
     .circle3 {
       @include circles(150px, 125px);
@@ -127,5 +133,12 @@
   }
 }
 
-
+  footer {
+    .footer {
+      h2 {
+      font-size: 36px;
+      color: #fff;
+      }
+    }
+  }
 }
