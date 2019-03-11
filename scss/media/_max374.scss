@@ -1,5 +1,6 @@
-// Extra small devices (portrait phones, less than 576px)
-@media (max-width: 576px) { 
+@media only screen and (max-width: 576px) {
+
+
 
   header {
     text-align: center;
@@ -9,10 +10,7 @@
     display: block;
     max-width: 100%;
     height: auto;
-    text-align: center;
   }
-
-
 
   .fax {
   	display: block;
@@ -52,7 +50,7 @@
     text-align: center;
     position: relative;
     font-weight: $bold;
-    font-size: 24px;
+    font-size: 20px !important;
     color: #fff;
     margin-left: 20px;
     sup {
@@ -73,18 +71,28 @@
     background-color: #01983b;
     opacity: 0.36;
     position: absolute;
-    right: -22%;
+    right: 18%;
     top: 10%;
     
     }
     p{
-      width: 140%;  // 750px
+      width: 100%;  // 750px
       font-size: 14px;
+      
       strong {
         font-size: 14px;
       }
     }
 
+}
+
+.achievements {
+	h2 {
+		font-size: 36px;
+		sup {
+			font-size: 6px;
+		}
+	}
 }
 
 .ofSuccess {
@@ -138,9 +146,13 @@
   footer {
     .footer {
       h2 {
-      font-size: 36px;
+      font-size: 28px !important;
       color: #fff;
+	      sup {
+	      	font-size: 6px;
+	      }
       }
     }
   }
+
 }

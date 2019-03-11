@@ -312,7 +312,7 @@ footer {
       color: #fff; }
 
 /* Footer END */
-@media (max-width: 576px) {
+@media only screen and (max-width: 576px) {
   header {
     text-align: center; }
 
@@ -320,6 +320,139 @@ footer {
     display: block;
     max-width: 100%;
     height: auto; }
+
+  .fax {
+    display: block; }
+
+  .header-bg .navbar {
+    width: 100%;
+    margin-top: 20px;
+    padding: 0;
+    color: #fff;
+    text-align: center; }
+    .header-bg .navbar .navbar-brand {
+      display: block; }
+    .header-bg .navbar .navbar-collapse {
+      background-color: #01983b;
+      background-size: cover;
+      z-index: 1; }
+    .header-bg .navbar button {
+      margin-right: 20px; }
+  .header-bg li {
+    display: block;
+    width: 100%;
+    text-align: center; }
+  .header-bg h2 {
+    font-family: 'EuropeExt-Bold', arial;
+    text-align: center;
+    position: relative;
+    font-weight: 700;
+    font-size: 20px !important;
+    color: #fff;
+    margin-left: 20px; }
+    .header-bg h2 sup {
+      font-size: 7px;
+      vertical-align: top;
+      position: relative;
+      top: 0.5em;
+      right: 0.4em; }
+
+  .carousel-caption .backslide {
+    width: 150%;
+    height: 75%;
+    background-color: #01983b;
+    opacity: 0.36;
+    position: absolute;
+    right: 18%;
+    top: 10%; }
+  .carousel-caption p {
+    width: 100%;
+    font-size: 14px; }
+    .carousel-caption p strong {
+      font-size: 14px; }
+
+  .achievements h2 {
+    font-size: 36px; }
+    .achievements h2 sup {
+      font-size: 6px; }
+
+  .ofSuccess img {
+    max-width: 35%; }
+  .ofSuccess .seven {
+    text-align: right; }
+  .ofSuccess .circle1 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 125px;
+    background: transparent;
+    border: 3px solid #00aeef;
+    left: 7%;
+    top: 20%; }
+  .ofSuccess .circle11 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 175px;
+    background: transparent;
+    border: 1px solid #3376af;
+    left: 1%;
+    top: 16%; }
+  .ofSuccess .circle2 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 125px;
+    background: transparent;
+    border: 3px solid #00aeef;
+    right: 7%;
+    top: 44%; }
+  .ofSuccess .circle21 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 175px;
+    background: transparent;
+    border: 1px solid #3376af;
+    right: 1%;
+    top: 40%; }
+  .ofSuccess .circle3 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 125px;
+    background: transparent;
+    border: 3px solid #00aeef;
+    left: 19%;
+    top: 75%; }
+  .ofSuccess .circle31 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 175px;
+    background: transparent;
+    border: 1px solid #3376af;
+    left: 12.5%;
+    top: 71%; }
+  .ofSuccess .forsuc p {
+    font-size: 24px; }
+    .ofSuccess .forsuc p strong {
+      font-size: 60px; }
+
+  footer .footer h2 {
+    font-size: 28px !important;
+    color: #fff; }
+    footer .footer h2 sup {
+      font-size: 6px; } }
+@media (max-width: 576px) {
+  header {
+    text-align: center; }
+
+  .imglogo {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    text-align: center; }
 
   .fax {
     display: block; }
@@ -363,10 +496,10 @@ footer {
     background-color: #01983b;
     opacity: 0.36;
     position: absolute;
-    right: 18%;
+    right: -22%;
     top: 10%; }
   .carousel-caption p {
-    width: 100%;
+    width: 140%;
     font-size: 14px; }
     .carousel-caption p strong {
       font-size: 14px; }
